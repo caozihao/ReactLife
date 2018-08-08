@@ -2,7 +2,7 @@ import React, { Component, PureComponent } from 'react';
 import { connect } from 'dva';
 import NewLifeChild from './newLifeChild.jsx';
 import ErrorBoundary from './ErrorBoundary.jsx'
-// 参考文章 https://www.jianshu.com/p/c9bc994933d5
+// 参考文章 https://blog.csdn.net/c_kite/article/details/80303341
 // 参考文章 https://blog.csdn.net/Napoleonxxx/article/details/81120854
 class IndexPage extends Component {
   // 只要组件存在constructor,就必要要写super,否则this指向会错误
